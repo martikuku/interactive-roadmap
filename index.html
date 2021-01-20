@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive roadmap</title>
+    <script src='https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js'></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/beeffda9bf.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="interactive-wrapper">
+        <!-- <div class="interactive-control-buttons">
+            <button class="btn" onclick="reset()"><i class="fas fa-sync-alt"></i></button>
+        </div> -->
+        <div id="interactive-content">
+
+            <div class="main-grid">
+
+                <h1 class="l-0"><a href="https://teleflex.pavlovec.net/system/l0/" class="link" target="_blank">L0</a></h1>
+                <h1 class="l-1"><a href="https://teleflex.pavlovec.net/system/l1/" class="link" target="_blank">L1</a></h1>
+                <h1 class="l-2"><a href="https://teleflex.pavlovec.net/system/l2/" class="link" target="_blank">L2</a></h1>
+                <h1 class="l-3"><a href="https://teleflex.pavlovec.net/system/l3/" class="link" target="_blank">L3</a></h1>
+                <h1 class="l-4"><a href="https://teleflex.pavlovec.net/system/l4/" class="link" target="_blank">L4</a></h1>
+
+                <h1 class="l-0-header">Pracoviště Procesy</h1>
+                <h1 class="l-1-header"><br/>Linky</h1>
+                <h1 class="l-2-header">Work<br/>centrum</h1>
+                <h1 class="l-3-header">Value<br/>Stream</h1>
+                <h1 class="l-4-header"><br/>Závod</h1>
+
+                <img class="header-arrows" src="arrows/header-arrows.png">
+
+                <ul class="l-description l-0-description">
+                    <li><strong>Vlastník: </strong>Operátor</li>
+                    <li><strong>Jak často: </strong>Každou směnu</li>
+                </ul>
+                <ul class="l-description l-1-description">
+                    <li><strong>Vlastník: </strong>Line leader</li>
+                    <li><strong>Jak často: </strong>Každou směnu, každou hodinu, každou zakázku</li>
+                </ul>
+                <ul class="l-description l-2-description">
+                    <li><strong>Vlastník: </strong>Supervisor</li>
+                    <li><strong>Jak často: </strong>Každou směnu</li>
+                </ul>
+                <ul class="l-description l-3-description">
+                    <li><strong>Vlastník: </strong>VS manager</li>
+                    <li><strong>Jak často: </strong>Denně, týdně, měsíčně, ročně</li>
+                </ul>
+                <ul class="l-description l-4-description">
+                    <li><strong>Vlastník: </strong>Site leader</li>
+                    <li><strong>Jak často: </strong>Denně, týdně, měsíčně, kvartálně, ročně</li>
+                </ul>
+
+                
+
+                <div class="l-section l-0-section-row-1 rows">
+                    <div class="section-card">
+                        <h3>Pracoviště / Procesy</h3>
+                        <div class="l-0-cards-overlay-grid">
+                            <div class="card card-1 card--blue"></div>
+                            <div class="card card-2 card--blue"></div>
+                            <div class="card card-3 card--blue ">
+                                <a href="https://teleflex.pavlovec.net/system/l0/pripravenost-operaci/" class="link" target="_blank">Připravenost operací</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-card">
+                        <h3>Pracoviště / Procesy</h3>
+                        <div class="l-0-cards-overlay-grid">
+                            <div class="card card-1 card--blue"></div>
+                            <div class="card card-2 card--blue"></div>
+                            <div class="card card-3 card--blue">
+                                <a href="https://teleflex.pavlovec.net/system/l0/pripravenost-operaci/" class="link" target="_blank">Připravenost operací</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-card">
+                        <h3>Pracoviště / Procesy</h3>
+                        <div class="l-0-cards-overlay-grid">
+                            <div class="card card-1 card--blue"></div>
+                            <div class="card card-2 card--blue"></div>
+                            <div class="card card-3 card--blue">
+                                <a href="https://teleflex.pavlovec.net/system/l0/pripravenost-operaci/" class="link" target="_blank">Připravenost operací</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-section l-0-section-row-2 rows">
+                    <div class="section-card">
+                        <h3>Pracoviště / Procesy</h3>
+                        <div class="l-0-cards-overlay-grid">
+                            <div class="card card-1 card--blue"></div>
+                            <div class="card card-2 card--blue"></div>
+                            <div class="card card-3 card--blue ">
+                                <a href="https://teleflex.pavlovec.net/system/l0/pripravenost-operaci/" class="link" target="_blank">Připravenost operací</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-card  ">
+                        <h3>Pracoviště / Procesy</h3>
+                        <div class="l-0-cards-overlay-grid">
+                            <div class="card card-1 card--blue"></div>
+                            <div class="card card-2 card--blue"></div>
+                            <div class="card card-3 card--blue">
+                                <a href="https://teleflex.pavlovec.net/system/l0/pripravenost-operaci/" class="link" target="_blank">Připravenost operací</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-card  ">
+                        <h3>Pracoviště / Procesy</h3>
+                        <div class="l-0-cards-overlay-grid">
+                            <div class="card card-1 card--blue"></div>
+                            <div class="card card-2 card--blue"></div>
+                            <div class="card card-3 card--blue">
+                                <a href="https://teleflex.pavlovec.net/system/l0/pripravenost-operaci/" class="link" target="_blank">Připravenost operací</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="arrow-6-divider-vertical" src="arrows/arrow-6-divider-vertical.png" />
+
+                <div class="l-section l-1-section-row-1 rows">
+                    <div class="section-card">
+                        <h3>Linky</h3>
+                        <div class="l-1-cards-overlay-grid">
+                            <div class="card card-1 card--green"></div>
+                            <div class="card card-2 card--green"></div>
+                            <div class="card card-3">
+                                <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l1/lide/" class="link" target="_blank">Lidé</a></div>
+                                <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l1/bezpecnost/" class="link" target="_blank">Bezpečnost</a></div>
+                                <div class="card card--green">
+                                    <ul>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/pripravenost-linky/" class="link" target="_blank">Připravenost linky</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/vyrobni-plan/" class="link" target="_blank">Výrobní plán</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/procesni-layout/" class="link" target="_blank">Procesní layout</a></li>
+                                    </ul>
+                                </div>
+                                <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l1/hodinovy-vystup-linky/" class="link" target="_blank">Hodinový výstup</a></div>
+                                <div class="card card--green  ">
+                                    <ul>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/matice-zaskoleni/" class="link" target="_blank">Matice zaškolení</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/harmonogram-skoleni/" class="link" target="_blank">Harmonogram školení</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/lpa-audit/" class="link" target="_blank">LPA audit</a></li>
+                                    </ul>
+                                </div>
+                                <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l1/3c-problem-solving/" class="link" target="_blank">3C Problem Solving</a></div>
+                                <div class="card card--green  ">
+                                    <ul>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/kpi/" class="link" target="_blank">KPI</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/presnost-plneni-planu/" class="link" target="_blank">Přesnost plnění plánu</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-section l-1-section-row-2 rows">
+                    <div class="section-card">
+                        <h3>Linky</h3>
+                        <div class="l-1-cards-overlay-grid">
+                            <div class="card card-1 card--green"></div>
+                            <div class="card card-2 card--green"></div>
+                            <div class="card card-3">
+                                <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l1/lide/" class="link" target="_blank">Lidé</a></div>
+                                <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l1/bezpecnost/" class="link" target="_blank">Bezpečnost</a></div>
+                                <div class="card card--green">
+                                    <ul>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/pripravenost-linky/" class="link" target="_blank">Připravenost linky</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/vyrobni-plan/" class="link" target="_blank">Výrobní plán</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/procesni-layout/" class="link" target="_blank">Procesní layout</a></li>
+                                    </ul>
+                                </div>
+                                <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l1/hodinovy-vystup-linky/" class="link" target="_blank">Hodinový výstup</a></div>
+                                <div class="card card--green  ">
+                                    <ul>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/matice-zaskoleni/" class="link" target="_blank">Matice zaškolení</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/harmonogram-skoleni/" class="link" target="_blank">Harmonogram školení</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/lpa-audit/" class="link" target="_blank">LPA audit</a></li>
+                                    </ul>
+                                </div>
+                                <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l1/3c-problem-solving/" class="link" target="_blank">3C Problem Solving</a></div>
+                                <div class="card card--green  ">
+                                    <ul>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/kpi/" class="link" target="_blank">KPI</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l1/presnost-plneni-planu/" class="link" target="_blank">Přesnost plnění plánu</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="arrow-2-divider-vertical" src="arrows/arrow-2-divider-vertical.png" />
+
+                <div class="l-section l-2-section-row-1" style="display:flex;">
+                    <div class="section-card">
+                        <h3>Workcentrum</h3>
+                        <div class="l-2-cards rows">
+                            <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l2/lide/" class="link" target="_blank">Lidé</a></div>
+                            <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l2/bezpecnost/" class="link" target="_blank">Bezpečenost</a></div>
+                            <div class="card card--green">
+                                <ul>
+                                    <li><strong><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/" class="link" target="_blank">Denní výstup: </a></strong></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/efektivita/" class="link" target="_blank">Efektivita</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/standardni-hodiny/" class="link" target="_blank">Standardní hodiny</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/vyuziti/" class="link" target="_blank">Využití</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/vyrobene-kusy/" class="link" target="_blank">Vyrobené kusy</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/nemocnost/" class="link" target="_blank">Absence</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/dovolena/" class="link" target="_blank">Dovolená</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/prescasy/" class="link" target="_blank">Přesčas</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/rozpad-po-pracovistich/" class="link" target="_blank">Rozpad po pracovištích</a></li>
+                                </ul>
+                            </div>
+                            <div class="card card--green">
+                                <ul>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/mesicni-trendy/" class="link" target="_blank">Měsíční trendy</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/mesicni-trendy/" class="link" target="_blank">Efektivita</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/mesicni-trendy/" class="link" target="_blank">Využití</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/mesicni-trendy/" class="link" target="_blank">Standardní hodiny</a></li>
+                                </ul>
+                            </div>
+                            <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l2/3c-problem-solving/" class="link" target="_blank">3C Problem Solving</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-section l-2-section-row-2" style="display:flex;">
+                    <div class="section-card">
+                        <h3>Workcentrum</h3>
+                        <div class="l-2-cards rows">
+                            <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l2/lide/" class="link" target="_blank">Lidé</a></div>
+                            <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l2/bezpecnost/" class="link" target="_blank">Bezpečenost</a></div>
+                            <div class="card card--green">
+                                <ul>
+                                    <li><strong><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/" class="link" target="_blank">Denní výstup: </a></strong></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/efektivita/" class="link" target="_blank">Efektivita</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/standardni-hodiny/" class="link" target="_blank">Standardní hodiny</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/vyuziti/" class="link" target="_blank">Využití</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/vyrobene-kusy/" class="link" target="_blank">Vyrobené kusy</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/nemocnost/" class="link" target="_blank">Absence</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/dovolena/" class="link" target="_blank">Dovolená</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/prescasy/" class="link" target="_blank">Přesčas</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/denni-vystup/rozpad-po-pracovistich/" class="link" target="_blank">Rozpad po pracovištích</a></li>
+                                </ul>
+                            </div>
+                            <div class="card card--green">
+                                <ul>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/mesicni-trendy/" class="link" target="_blank">Měsíční trendy</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/mesicni-trendy/" class="link" target="_blank">Efektivita</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/mesicni-trendy/" class="link" target="_blank">Využití</a></li>
+                                    <li><a href="https://teleflex.pavlovec.net/system/l2/mesicni-trendy/" class="link" target="_blank">Standardní hodiny</a></li>
+                                </ul>
+                            </div>
+                            <div class="card card--green"><a href="https://teleflex.pavlovec.net/system/l2/3c-problem-solving/" class="link" target="_blank">3C Problem Solving</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="arrow-2-divider-vertical-2" src="arrows/arrow-2-divider-vertical.png" />
+               
+                <div class="l-section l-3-section-row-1 columns" >
+                    <div style="display:flex;">
+                        <div class="section-card rows" style="width:285px;">
+                            <!-- <div class=" "> -->
+                                <!-- <div class="l-3-grid__col-1  "> -->
+                                    <h3>Denní porada</h3>
+                                    <div class="l-2-cards rows">
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/lide/" class="link" target="_blank">Lidé</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/bezpecnost/" class="link" target="_blank">Bezpečnost</a></div>
+                                        <div class="card card--orange">
+                                            <ul>
+                                                <li><strong><a href="https://teleflex.pavlovec.net/system/l3/denni-vystupy/" class="link" target="_blank">Denní výstup: </a></strong></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/denni-vystupy/efektivita/" class="link" target="_blank">Efektivita</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/denni-vystupy/standardni-hodiny/" class="link" target="_blank">Standardní hodiny</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/denni-vystupy/vyuziti/" class="link" target="_blank">Využití</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/denni-vystupy/vyrobene-kusy/" class="link" target="_blank">Vyrobené kusy</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/denni-vystupy/absence/" class="link" target="_blank">Absence</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/denni-vystupy/dovolena/" class="link" target="_blank">Dovolená</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/denni-vystupy/prescasy/" class="link" target="_blank">Přesčas</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/denni-vystupy/rozpad-po-workcentrech/" class="link" target="_blank">Rozpad po workcentrech</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card card--orange">
+                                            <ul>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/mesicni-trendy/" class="link" target="_blank">Měsíční trendy</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/mesicni-trendy/" class="link" target="_blank">Efektivita</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/mesicni-trendy/" class="link" target="_blank">Využití</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/mesicni-trendy/" class="link" target="_blank">Standardní hodiny</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/mesicni-trendy/" class="link" target="_blank">Vyrobené kusy</a></li>
+                                                <li><a href="https://teleflex.pavlovec.net/system/l3/mesicni-trendy/" class="link" target="_blank">Přesčas</a></li>
+                                            </ul>
+                                        </div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+                        </div> <!-- rows -->
+                        <div class="rows">
+                            <div class="section-card narusitele-procesu">
+                                <h3>Narušitelé procesu</h3>
+                                <div class="rows" >
+                                    <div class="columns">
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Připravenost linek</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Zastavení linek a přepracované/zmetkové výroby</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Přesnost plnění plánu</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Zastavení procesů skladu</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Chybné odpovědi LPA Auditů</a></div>
+                                    </div>
+                                    <div class="columns">
+                                        <img class="arrow" src="arrows/arrow-down.png" />
+                                        <img class="arrow" src="arrows/arrow-down.png" />
+                                        <img class="arrow" src="arrows/arrow-down.png" />
+                                        <img class="arrow" src="arrows/arrow-down.png" />
+                                        <img class="arrow" src="arrows/arrow-down.png" />
+                                    </div>
+                                    <div class="columns">
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Nápravné akce</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Nápravné akce</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Nápravné akce</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Nápravné akce</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Nápravné akce</a></div>
+                                    </div>
+                                    <div class="columns">
+                                        <img class="arrow" src="arrows/arrow-down.png" />
+                                        <img class="arrow" src="arrows/arrow-down.png" />
+                                        <img class="arrow" src="arrows/arrow-down.png" />
+                                        <img class="arrow" src="arrows/arrow-down.png" />
+                                        <img class="arrow" src="arrows/arrow-down.png" />
+                                    </div>
+                                    <div class="columns">
+                                        <div class="card card--orange"> <a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Roční trend</a></div>
+                                        <div class="card card--orange"> <a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Roční trend</a></div>
+                                        <div class="card card--orange"> <a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Roční trend</a></div>
+                                        <div class="card card--orange"> <a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Roční trend</a></div>
+                                        <div class="card card--orange"> <a href="https://teleflex.pavlovec.net/system/l3/narusitele-procesu/"  class="link" target="_blank">Roční trend</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="columns">
+                                <div class="section-card rows kpi">
+                                    <h3>KPI</h3>
+                                    <div class="columns">
+                                        <div class="rows">
+                                            <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/kpi/" class="link" target="_blank">Bezpečnost</a></div>
+                                            <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/kpi/" class="link" target="_blank">Výroba</a></div>
+                                            <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/kpi/" class="link" target="_blank">Lidské zdroje</a></div>
+                                        </div>
+                                        <div class="rows">
+                                            <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/kpi/" class="link" target="_blank">Logistika</a></div>
+                                            <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/kpi/" class="link" target="_blank">Kvalita</a></div>
+                                            <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/kpi/" class="link" target="_blank">Inženýring</a></div>
+                                        </div>
+                                    </div>    
+                                </div>
+        
+                                <div class="section-card rows denni-odpovednost" style="width:285px;">
+                                    <h3>Denní odpovědnost</h3>
+                                    <div class="rows">
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/top-priority-na-den/" class="link" target="_blank">TOP priority na den</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/nc/" class="link" target="_blank">NC</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/3c-problem-solving/" class="link" target="_blank">3C Problem Solving</a></div>
+                                    </div>
+                                </div>
+        
+                                <div class="section-card lsw rows" style="width:285px;">
+                                    <h3>LSW</h3>
+                                    <div class="rows">
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/gebma-walk/" class="link" target="_blank">Gemba walk</a></div>
+                                        <div class="card card--orange"><a href="https://teleflex.pavlovec.net/standard-l3/" class="link" target="_blank">Standardy</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- rows -->
+
+                        
+                    <!-- </div> -->
+                    <!-- columns -->        
+                </div> <!-- l-3-section-row-1 -->
+
+                <img class="arrow-1-horizontal" src="arrows/arrow-1-horizontal.png">
+
+                <div class="l-section l-3-section-row-2 columns" >
+                    <div style="display:flex;">
+                    <!-- <div class="rows" style="width:285px;"> -->
+                        <div class="section-card daily-kaizen rows"  style="width:285px;">
+                            <h3>Daily Kaizen</h3>
+                            <div class="row">
+                                <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/daily-kaizen/" class="link" target="_blank">Nové</a></div>
+                                <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/daily-kaizen/" class="link" target="_blank">Zamítnuté</a></div>
+                                <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/daily-kaizen/" class="link" target="_blank">Rozpracované</a></div>
+                                <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/daily-kaizen/" class="link" target="_blank">Hotové</a></div>
+                                <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/daily-kaizen/" class="link" target="_blank">On-hold</a></div>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                    </div>
+                    <!-- <div class="columns" style="width:1335px;"> -->
+                    <div style="display:flex;">
+                        <div class="rows" >
+                            <div class="section-card">
+                                <h3>Value Stream Transformace</h3>
+                                <div class="rows">
+                                    <div class="columns" >
+                                        <div class="card card--orange" style="width:410px; height:545px;">
+                                            <a href="https://teleflex.pavlovec.net/system/l3/transformace-vs/" class="link" target="_blank">Value Stream Mapa VSM</a>
+                                        </div>
+                                        <div style="display:flex;justify-content: center;">
+                                            <img class="arrow" src="arrows/arrow-left-right.png" style="height:auto; align-self:center;"/>
+                                        </div>
+                                        <div class="card card--orange" style="width:410px; height:545px;">
+                                            <a href="https://teleflex.pavlovec.net/system/l3/transformace-vs/" class="link" target="_blank">Value Stream Design VSD</a>
+                                        </div>
+                                    </div>
+                                    <div class="columns" style="justify-content: space-around;">
+                                        <img class="arrow" src="arrows/arrow-up-down.png" />
+                                        <img class="arrow" src="arrows/arrow-up-down.png" />
+                                        <img class="arrow" src="arrows/arrow-up-down.png" />
+                                    </div>
+                                    <div class="columns">
+                                        <div class="card card--orange" style="width:280px;">
+                                            <a href="https://teleflex.pavlovec.net/system/l3/transformace-vs/" class="link" target="_blank">PDCA</a></div>
+                                        <div class="card card--orange" style="width:280px;">
+                                            <a href="https://teleflex.pavlovec.net/system/l3/transformace-vs/" class="link" target="_blank">PDCA</a></div>
+                                        <div class="card card--orange" style="width:280px;">
+                                            <a href="https://teleflex.pavlovec.net/system/l3/transformace-vs/" class="link" target="_blank">PDCA</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- <div class="rows" style="width:285px;"> -->
+                        <div style="display:flex;">
+                            <div class="section-card value-stream-inf-tabule rows" style="width:285px;">
+                                <h3>Value Stream informační tabule</h3>
+                                <div class="row">
+                                    <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/organizacni-struktura/" class="link" target="_blank">Organizační struktura</a></div>
+                                    <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/recognition/" class="link" target="_blank">Recognition</a></div>
+                                    <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/vlastnictvi/" class="link" target="_blank">Vlastnictví</a></div>
+                                    <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/cile-a-priority/" class="link" target="_blank">Cíle a priority</a></div>
+                                    <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/informace-pro-vs/" class="link" target="_blank">Informace</a></div>
+                                    <div class="card card--orange"><a href="https://teleflex.pavlovec.net/system/l3/eskalacni-mapa/" class="link" target="_blank">Eskalační mapa</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                </div>
+
+                <img class="arrow-2-divider-vertical-3" src="arrows/arrow-2-divider-vertical.png" />
+
+                <div class="l-section l-4-section-row-1 columns">
+                    <div class="rows">
+                        <div class="section-card" style="width:285px;">
+                            <h3>Denní porada</h3>
+                            <div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/lide/" class="link" target="_blank">Lidé</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/bezpecnost/" class="link" target="_blank">Bezpečnost</a></div>
+                                <div class="card card--red">
+                                    <ul>
+                                        <li><strong><a href="https://teleflex.pavlovec.net/system/l4/denni-vystup/" class="link" target="_blank">Denní výstup:</a></strong></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l4/denni-vystup/efektivita/" class="link" target="_blank">Efektivita</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l4/denni-vystup/standardni-hodiny/" class="link" target="_blank">Standardní hodiny</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l4/denni-vystup/vyuziti/" class="link" target="_blank">Využití</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l4/denni-vystup/vyrobene-kusy/" class="link" target="_blank">Vyrobené kusy</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l4/denni-vystup/nemocnost/" class="link" target="_blank">Absence</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l4/denni-vystup/dovolena/" class="link" target="_blank">Dovolená</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l4/denni-vystup/prescas/" class="link" target="_blank">Přesčas</a></li>
+                                        <li><a href="https://teleflex.pavlovec.net/system/l4/denni-vystup/rozpad-po-vs/" class="link" target="_blank">Rozpad po VS</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a href="" class="link" target="_blank"></a> -->
+                        <div class="section-card rows" style="width:285px;">
+                            <h3>LSW</h3>
+                            <div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/site-gemba/" class="link" target="_blank">Gemba walk</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/standard-l4/" class="link" target="_blank">Standardy</a></div>
+                            </div>
+                        </div>
+                        <div class="section-card" style="width:285px;">
+                            <h3>Denní odpovědnost</h3>
+                            <div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/top-priority-na-den/" class="link" target="_blank">TOP priority na den</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/nc/" class="link" target="_blank">NC</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/3c-problem-solving/" class="link" target="_blank">3C Problem Solving</a></div>
+                            </div>
+                        </div>
+                        <div class="section-card" style="width:285px;">
+                            <h3>KPI</h3>
+                            <div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/kpi/" class="link" target="_blank">Bezpečnost</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/kpi/" class="link" target="_blank">Výroba</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/kpi/" class="link" target="_blank">Lidské zdroje</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/kpi/" class="link" target="_blank">Logistika</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/kpi/" class="link" target="_blank">Kvalita</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/kpi/" class="link" target="_blank">Inženýring</a></div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <div class="section-card">
+                            <h3>Strategie</h3>
+                            <div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/transformacni-mapa/" class="link" target="_blank">Transformační mapa</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/be-meeting/" class="link" target="_blank">BE meeting</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/talent-review/" class="link" target="_blank">Talent reviw</a></div>
+                                <div class="card card--red"><a href="https://teleflex.pavlovec.net/system/l4/strategicky-meeting/" class="link" target="_blank">Strategický meeting</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- main-grid -->
+    </div> <!-- interactive-content -->
+</div> <!-- interactive-wrapper -->
+</body>
+<script src="panzoom.js"></script>
+</html>
